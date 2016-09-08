@@ -1,8 +1,54 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>tic-tac-toe</title>
+    <title></title>
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
-test
+
+<div id="title">Simply Tic-Tac-Toe</div>
+<br />
+<div id="container">
+
+<p>
+    Play against the computer or with your friend:
+</p>
+
+<div id="players">
+    <form>
+        <input type="radio" id="rdHuman" name="tictactoe" value="2 Player"  /> 2 Players
+        <input type="radio" id="rdComputer" name="tictactoe" value="Computer" /> You Vs The Computer
+    </form>
+</div>
+
+
+<table>
+    <tr class="divRow">
+        <td id="col0Row0" class="divCell"></td>
+        <td id="col1Row0" class="divCell"></td>
+        <td id="col2Row0" class="divCell"></td>
+    </tr>
+
+    <tr class="divRow">
+        <td id="col0Row1" class="divCell" ></td>
+        <td id="col1Row1" class="divCell" ></td>
+        <td id="col2Row1" class="divCell" ></td>
+    </tr>
+
+    <tr class="divRow">
+        <td id="col0Row2" class="divCell" ></td>
+        <td id="col1Row2" class="divCell" ></td>
+        <td id="col2Row2" class="divCell" ></td>
+    </tr>
+
+
+</table>
+<br /> <br /><br/>
+    <input type="reset" id="reset" value="Reset Game" onclick="game.resetGame();" />
+</div>
+
+
+<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
