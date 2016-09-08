@@ -4,7 +4,7 @@
 I made this game becauseI was doing a course on the <a href="http://www.theodinproject.com/">The Odin Project</a>.
 The requirements were for you to make a Tic-Tac-Toe game in JavaScript. I took it a little further and made a simple Ai.
 
-<a href="http://htmlpreview.github.io/?https://rawgit.com/lightcast/SimplyTicTacToe/master/index.html"><b>TO PLAY THE GAME CLICK HERE</b></a>
+<a href="https://lightcast.github.io/tic-tace-toe/"><b>TO PLAY THE GAME CLICK HERE</b></a>
 
 
 You can choose to play: 2Player or You VS The Computer.
